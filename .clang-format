@@ -1,0 +1,37 @@
+BasedOnStyle: LLVM
+Language: Cpp
+
+IndentWidth: 4
+TabWidth: 4
+UseTab: ForIndentation
+ContinuationIndentWidth: 4
+
+ColumnLimit: 0
+
+BreakBeforeBraces: Attach
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: false
+AllowShortBlocksOnASingleLine: false
+
+SpaceBeforeParens: ControlStatements
+SpaceBeforeRangeBasedForLoopColon: true
+PointerAlignment: Right
+DerivePointerAlignment: false
+
+BinPackArguments: false
+BinPackParameters: false
+AlignTrailingComments: true
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+BreakConstructorInitializersBeforeComma: false
+AlwaysBreakAfterDefinitionReturnType: None
+
+SortIncludes: true
+IncludeBlocks: Preserve
+IndentCaseLabels: false
+Cpp11BracedListStyle: true
+SpacesInAngles: false
+KeepEmptyLinesAtTheStartOfBlocks: true
+Standard: Latest
