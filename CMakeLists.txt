@@ -7,7 +7,7 @@ if(POLICY CMP0167)
 	cmake_policy(SET CMP0167 OLD)
 endif()
 
-find_package(Boost 1.89 REQUIRED COMPONENTS json)
+find_package(Boost REQUIRED COMPONENTS json)
 add_executable(${PROJECT_NAME} main.cpp)
 
 if (WIN32)
